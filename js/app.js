@@ -12,7 +12,11 @@ const links = document.getElementById("nav-links");
 navBtn.addEventListener("click", () => {
   links.classList.toggle("show-links");
 });
-
+testFunction = () =>{
+  console.log("Test Function invoked")
+  document.querySelector('body').style.background = "black"
+  ;
+}
 // ********** smooth scroll ************
 // select links
 const scrollLinks = document.querySelectorAll(".scroll-link");
