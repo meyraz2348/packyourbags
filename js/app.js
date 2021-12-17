@@ -14,7 +14,7 @@ navBtn.addEventListener("click", () => {
 });
 testFunction = () =>{
   console.log("Test Function invoked")
-  document.querySelector('body').style.background = "black"
+  document.querySelector('body').style.background = "pink"
   ;
 }
 // ********** smooth scroll ************
